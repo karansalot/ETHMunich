@@ -1,0 +1,36 @@
+import ThemeType from "../types/themeType";
+import COLORS from "./colors";
+
+export const LIGHT: ThemeType = {
+  PRIMARY: COLORS.PURPLE,
+  BACKGROUND: COLORS.WHITE,
+  NAVIGATION: COLORS.CLEAR,
+  TEXT: COLORS.GREY_300,
+  TITLE: COLORS.GREY_700,
+  BORDER: COLORS.GREY_100,
+  INPUT: COLORS.PEACH,
+  CARD: COLORS.CLEAR,
+};
+
+export const DARK: ThemeType = {
+  PRIMARY: COLORS.PURPLE,
+  BACKGROUND: COLORS.GREY_500,
+  NAVIGATION: COLORS.GREY_800,
+  TEXT: COLORS.GREY_200,
+  TITLE: COLORS.CLEAR,
+  BORDER: COLORS.GREY_300,
+  INPUT: COLORS.PEACH,
+  CARD: COLORS.GREY_400,
+};
+
+const THEME = {
+  LIGHT,
+  DARK,
+};
+
+export const THEME_ENUM = {
+  LIGHT: 0,
+  DARK: 1,
+};
+
+export default THEME;
